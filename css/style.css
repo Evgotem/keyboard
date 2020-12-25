@@ -1,0 +1,53 @@
+* {
+   box-sizing: border-box;
+}
+.container {
+   max-width: 480px;
+   margin: 0 auto;
+   padding-top: 50px;
+}
+.input {
+   width: 100%;
+   border-radius: 10px;
+   outline: none;
+   height: 25px;
+   padding: 0 10px;
+}
+
+.out {
+   border: 1px solid #3c3c3c;
+   border-radius: 10px;
+   width: 100%;
+   margin-top: 10px;
+   background-color: #EAEAEB;
+   padding: 5px;
+}
+.keyboard-list {
+   display: flex;
+   list-style: none;
+   width: 100%;
+   justify-content: space-between;
+   margin: 0;
+   padding: 5px;
+   padding-left: 0;
+}
+
+.keyboard__item {
+   padding: 5px;
+   margin: 3px;
+   border: 1px solid #3c3c3c;
+   box-sizing: border-box;
+   border-radius: 5px;
+   min-width: 37px;
+   height: 37px;
+   background-color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+.active {
+   background-color: #8e8e8e;
+   color: #fff;
+}
