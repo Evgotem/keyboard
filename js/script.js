@@ -29,9 +29,3 @@ for (let i = 0; i < items.length; i++) {
       items[i].classList.remove('active');
    }
 }
-// items.forEach((elem) => {
-//    elem.classList.remove('active');
-//    elem.onclick = () => {
-//       elem.classList.add('active');
-//    }
-// });
